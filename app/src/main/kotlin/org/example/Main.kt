@@ -23,7 +23,12 @@ fun main() {
     objeto = CuadraticaMejor()
     println (objeto)
 
-    objeto = Fecha(1, 2, 3)
-    println (objeto)
+
+    var lista = ArrayList<Polinomio>()
+    lista.add(Cuadratica())
+    lista.add(Polinomio())
+    lista.add(CuadraticaMejor())
+    var p : lista[0]
+    println(p)
 
 }
