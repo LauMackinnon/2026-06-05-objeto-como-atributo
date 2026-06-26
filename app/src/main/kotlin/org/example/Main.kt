@@ -28,4 +28,6 @@ fun main() {
     var polinomio2 = Polinomio(arrayListOf(t4, t5, t6, t7))
     println(polinomio)
     println(polinomio2)
+    var polinomioSuma = polinomio + polinomio2
+    println(polinomioSuma)
 }
